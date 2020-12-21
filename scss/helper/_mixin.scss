@@ -1,0 +1,31 @@
+@mixin search() {
+  form {
+    position: relative;
+    top: 0;
+    right: 0;
+    flex-grow: 5;
+    .input-group {
+      border: 1px solid #00000026;
+      border: none;
+
+      input {
+        font-weight: 300;
+        border: transparent;
+        &:focus {
+          box-shadow: none;
+        }
+      }
+      .fa {
+        padding: 0.625rem;
+        color: $color-primary;
+        transition: 0.5s;
+        background-color: $color-second;
+        cursor: pointer;
+        &:hover {
+          color: white;
+          background-color: $color-primary;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left a {
+  flex-grow: 1;
+}
+
+.header-left .categories {
+  flex-grow: 1;
+}
+
+.header-left .categories span {
+  font-weight: 200;
+}
+
+.header-left form {
+  position: relative;
+  top: 0;
+  right: 0;
+  flex-grow: 5;
+}
+
+.header-left form .input-group {
+  border: 1px solid #00000026;
+  border: none;
+}
+
+.header-left form .input-group input {
+  font-weight: 300;
+  border: transparent;
+}
+
+.header-left form .input-group input:focus {
+  box-shadow: none;
+}
+
+.header-left form .input-group .fa {
+  padding: 0.625rem;
+  color: #ec5252;
+  transition: 0.5s;
+  background-color: white;
+  cursor: pointer;
+}
+
+.header-left form .input-group .fa:hover {
+  color: white;
+  background-color: #ec5252;
+}
+
+.header-right .fa {
+  padding: 1rem;
+}
+
+.header-right .btn-login {
+  border: 1px solid #00000026;
+}
+
+#carousel {
+  background-image: url("./../../img/cover.jpg");
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+#carousel form {
+  position: relative;
+  top: 0;
+  right: 0;
+  flex-grow: 5;
+}
+
+#carousel form .input-group {
+  border: 1px solid #00000026;
+  border: none;
+}
+
+#carousel form .input-group input {
+  font-weight: 300;
+  border: transparent;
+}
+
+#carousel form .input-group input:focus {
+  box-shadow: none;
+}
+
+#carousel form .input-group .fa {
+  padding: 0.625rem;
+  color: #ec5252;
+  transition: 0.5s;
+  background-color: white;
+  cursor: pointer;
+}
+
+#carousel form .input-group .fa:hover {
+  color: white;
+  background-color: #ec5252;
+}
+/*# sourceMappingURL=style.css.map */
