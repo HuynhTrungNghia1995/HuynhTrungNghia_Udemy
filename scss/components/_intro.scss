@@ -1,0 +1,21 @@
+.intro {
+  .work {
+    background: linear-gradient(-45deg, #ec5252, #6e1a52);
+    .row {
+      .item {
+        color: white;
+        .fa {
+          font-size: 3rem;
+          padding: 0.5rem 1rem;
+        }
+        .content-text {
+          padding: 0.6rem;
+          span {
+            font-weight: 700;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
