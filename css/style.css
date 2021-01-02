@@ -166,4 +166,491 @@
   font-weight: 700;
   font-size: 1rem;
 }
+
+.intro .container .skill-hub {
+  margin-top: 2rem;
+}
+
+.intro .container .skill-hub .item {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f7f8fa;
+  padding: 5rem 2rem;
+  margin: 15px 15px 28px 0;
+  height: 384px;
+}
+
+.intro .container .skill-hub .item h1 {
+  font-size: 1.187rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.intro .container .skill-hub .nav-tabs #nav-business-tab {
+  width: 5.3125rem;
+  padding-top: 1rem;
+}
+
+.intro .container .skill-hub .nav-tabs #nav-design-tab {
+  width: 4.5rem;
+  padding-top: 1rem;
+}
+
+.intro .container .skill-hub .nav-tabs #nav-photography-tab {
+  width: 7rem;
+  padding-top: 1rem;
+}
+
+.intro .container .skill-hub .nav-tabs #nav-development-tab {
+  width: 7.1875rem;
+  padding-top: 1rem;
+}
+
+.intro .container .skill-hub .nav-tabs #nav-marketing-tab {
+  width: 5.75rem;
+  padding-top: 1rem;
+}
+
+.intro .container .skill-hub .nav-tabs #nav-it-software-tab {
+  width: 5.3125rem;
+  padding-top: 0.5rem;
+}
+
+.intro .container .skill-hub .nav-tabs .nav-link {
+  border: none;
+  height: 4.25rem;
+  padding: 0 12px;
+  font-size: 15px;
+}
+
+.intro .container .skill-hub .nav-tabs #nav-personal-dev-tab {
+  width: 7.5625rem;
+  margin: 0;
+  padding-top: 0.5rem;
+}
+
+.intro .container .skill-hub .nav-tabs .active {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.intro .container .skill-hub .nav-tabs .active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.4rem;
+  background-color: #007791;
+}
+
+.intro .container .skill-hub .nav-tabs a {
+  text-align: left;
+  color: #14171c !important;
+}
+
+.intro .container .skill-hub .tab-content {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course {
+  margin: 0.25rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course:hover {
+  box-shadow: 0 8px 8px 8px rgba(20, 23, 28, 0.1);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course:hover .img-course .hidden-content {
+  visibility: visible;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course .img-course {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course .img-course img {
+  width: 100%;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course .img-course .hidden-content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #14171c;
+  opacity: 0.5;
+  visibility: hidden;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course .best-seller {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  background-color: #f4c150;
+  height: 1.2rem;
+  border-radius: 0 2rem 2rem 0;
+  font-size: 0.8rem;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course .best-seller p {
+  padding: 0 1rem;
+  font-weight: 500;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course .content-text {
+  padding: 1rem 0.8rem 0rem 1rem;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course .content-text h6 {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 2.5rem;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course .content-text p {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #686f7a;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course .content-text .rating {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course .content-text .rating .fa {
+  color: #f4c150;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course .content-text .rating .rating-point {
+  font-weight: 500;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course .content-text .rating span {
+  margin-left: 0.4rem;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course .content-text .rating p {
+  padding-top: 0.95rem;
+  margin-left: 0.1rem;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course .content-text .price {
+  padding-bottom: 1rem;
+}
+
+.intro .container .skill-hub .tab-content .carousel-inner .item-course .content-text .price .real-price {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.intro .container .skill-hub .tab-content .prev-button {
+  color: #007791 !important;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  z-index: 10;
+  position: absolute;
+  top: 38%;
+  left: -3%;
+  border: none;
+  box-shadow: 1px 1px 1px 1px rgba(20, 23, 28, 0.1);
+  transition: 0.3s;
+}
+
+.intro .container .skill-hub .tab-content .prev-button .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3rem;
+  height: 3rem;
+}
+
+.intro .container .skill-hub .tab-content .prev-button:hover {
+  color: #007791;
+  box-shadow: 3px 3px 3px 3px rgba(20, 23, 28, 0.1);
+}
+
+.intro .container .skill-hub .tab-content .next-button {
+  color: #007791 !important;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background-color: white;
+  padding-left: 1.3rem;
+  padding-top: 0.5rem;
+  font-size: 2rem;
+  z-index: 10;
+  position: absolute;
+  top: 38%;
+  left: 97%;
+  border: none;
+  box-shadow: 1px 1px 1px 1px rgba(20, 23, 28, 0.1);
+  transition: 0.3s;
+}
+
+.intro .container .skill-hub .tab-content .next-button .carousel-control-next {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3rem;
+  height: 3rem;
+}
+
+.intro .container .skill-hub .tab-content .next-button:hover {
+  color: #007791;
+  box-shadow: 3px 3px 3px 3px rgba(20, 23, 28, 0.1);
+}
+
+.intro .what-you-get {
+  background-color: #f2f3f5;
+}
+
+.intro .what-you-get .container .item {
+  background-color: white;
+  padding: 1.5rem;
+  height: 9.75rem;
+}
+
+.intro .what-you-get .container .item img {
+  padding-top: 0.2rem;
+  width: 2.625rem;
+  height: 2.625rem;
+  margin-right: 1rem;
+}
+
+.intro .what-you-get .container .item .content-text h1 {
+  font-size: 1.1875rem;
+}
+
+.intro .what-you-get .container .item .content-text p {
+  color: #686f7a;
+}
+
+.most-view .tittle h2 {
+  color: #505763;
+}
+
+.most-view .list-course {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.most-view .list-course .carousel-inner .item-course {
+  margin: 0.25rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+}
+
+.most-view .list-course .carousel-inner .item-course:hover {
+  box-shadow: 0 8px 8px 8px rgba(20, 23, 28, 0.1);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.most-view .list-course .carousel-inner .item-course:hover .img-course .hidden-content {
+  visibility: visible;
+}
+
+.most-view .list-course .carousel-inner .item-course .img-course {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.most-view .list-course .carousel-inner .item-course .img-course img {
+  width: 100%;
+}
+
+.most-view .list-course .carousel-inner .item-course .img-course .hidden-content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #14171c;
+  opacity: 0.5;
+  visibility: hidden;
+}
+
+.most-view .list-course .carousel-inner .item-course .best-seller {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  background-color: #f4c150;
+  height: 1.2rem;
+  border-radius: 0 2rem 2rem 0;
+  font-size: 0.8rem;
+}
+
+.most-view .list-course .carousel-inner .item-course .best-seller p {
+  padding: 0 1rem;
+  font-weight: 500;
+}
+
+.most-view .list-course .carousel-inner .item-course .content-text {
+  padding: 1rem 0.8rem 0rem 1rem;
+}
+
+.most-view .list-course .carousel-inner .item-course .content-text h6 {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 2.5rem;
+}
+
+.most-view .list-course .carousel-inner .item-course .content-text p {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #686f7a;
+}
+
+.most-view .list-course .carousel-inner .item-course .content-text .rating {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.most-view .list-course .carousel-inner .item-course .content-text .rating .fa {
+  color: #f4c150;
+}
+
+.most-view .list-course .carousel-inner .item-course .content-text .rating .rating-point {
+  font-weight: 500;
+}
+
+.most-view .list-course .carousel-inner .item-course .content-text .rating span {
+  margin-left: 0.4rem;
+}
+
+.most-view .list-course .carousel-inner .item-course .content-text .rating p {
+  padding-top: 0.95rem;
+  margin-left: 0.1rem;
+}
+
+.most-view .list-course .carousel-inner .item-course .content-text .price {
+  padding-bottom: 1rem;
+}
+
+.most-view .list-course .carousel-inner .item-course .content-text .price .real-price {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.most-view .list-course .prev-button {
+  color: #007791 !important;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  z-index: 10;
+  position: absolute;
+  top: 38%;
+  left: -3%;
+  border: none;
+  box-shadow: 1px 1px 1px 1px rgba(20, 23, 28, 0.1);
+  transition: 0.3s;
+}
+
+.most-view .list-course .prev-button .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3rem;
+  height: 3rem;
+}
+
+.most-view .list-course .prev-button:hover {
+  color: #007791;
+  box-shadow: 3px 3px 3px 3px rgba(20, 23, 28, 0.1);
+}
+
+.most-view .list-course .next-button {
+  color: #007791 !important;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background-color: white;
+  padding-left: 1.3rem;
+  padding-top: 0.5rem;
+  font-size: 2rem;
+  z-index: 10;
+  position: absolute;
+  top: 38%;
+  left: 97%;
+  border: none;
+  box-shadow: 1px 1px 1px 1px rgba(20, 23, 28, 0.1);
+  transition: 0.3s;
+}
+
+.most-view .list-course .next-button .carousel-control-next {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3rem;
+  height: 3rem;
+}
+
+.most-view .list-course .next-button:hover {
+  color: #007791;
+  box-shadow: 3px 3px 3px 3px rgba(20, 23, 28, 0.1);
+}
+
+.most-view .list-course .col-lg-2 {
+  max-width: 20% !important;
+  flex: 0 0 20% !important;
+  width: 20%;
+}
+
+.most-view .list-course .col-lg-2 img {
+  height: 8rem;
+}
+
+.most-view .list-course .col-lg-2 .item-course {
+  height: 20rem;
+}
+
+.most-view .list-course .col-lg-2 .item-course .content-text {
+  padding: 0.5rem 0.4rem 0rem 0.5rem;
+}
+
+.most-view .list-course .next-button {
+  left: 98%;
+}
 /*# sourceMappingURL=style.css.map */

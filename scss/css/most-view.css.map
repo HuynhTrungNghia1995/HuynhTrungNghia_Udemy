@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,UAFM,CACR,OAAO,CACL,EAAE,CAAC;EACD,KAAK,EAAE,OAAO;CACf",
+    "sources": [
+        "../components/most-view.scss"
+    ],
+    "names": [],
+    "file": "most-view.css"
+}
