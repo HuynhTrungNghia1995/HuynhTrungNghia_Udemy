@@ -1,0 +1,76 @@
+.comment {
+  background-color: #f7f8fa;
+  .container {
+    position: relative;
+    top: 0;
+    left: 0;
+    @include list-carousel();
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.33em;
+    }
+    .next-button {
+      left: 98%;
+    }
+    .row {
+      .item-course {
+        height: 16rem !important;
+        background-color: white;
+        box-shadow: none;
+        &:hover {
+          box-shadow: none;
+          cursor: text;
+        }
+        .avatar {
+          padding: 1rem;
+          img {
+            border-radius: 50%;
+            height: 4rem;
+            width: 4rem;
+          }
+          span {
+            margin-left: 1rem;
+            font-weight: 700;
+          }
+        }
+        .comment-text {
+          padding: 1rem;
+          p {
+            line-height: 1.5em;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .comment {
+    .container {
+      .next-button {
+        left: 97%;
+        top: 47%;
+      }
+      .prev-button {
+        left: -5%;
+        top: 47%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .comment {
+    .container {
+      .next-button {
+        left: 97%;
+        top: 47%;
+      }
+      .prev-button {
+        left: -7%;
+        top: 47%;
+      }
+    }
+  }
+}

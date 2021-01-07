@@ -30,7 +30,7 @@
         background: #f7f8fa;
         padding: 5rem 2rem;
         margin: 15px 15px 28px 0;
-        height: 384px;
+        height: 414px;
         h1 {
           font-size: 1.187rem;
           font-weight: 700;
@@ -120,6 +120,87 @@
           }
           p {
             color: #686f7a;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .intro {
+    .work {
+      .fa {
+        display: none;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .intro {
+    .container {
+      .skill-hub {
+        .item {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .intro {
+    .work {
+      .row {
+        .col-lg-4 {
+          max-width: 33%;
+          flex: 0 0 33%;
+        }
+      }
+    }
+    .container {
+      .skill-hub {
+        .col-lg-4 {
+          max-width: 33%;
+          flex: 0 0 33%;
+        }
+        .row {
+          .col-xl-8 {
+            .tab-content {
+              .prev-button {
+                left: -4%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 900px) {
+  .intro {
+    .work {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 678px) {
+  .intro {
+    .container {
+      .skill-hub {
+        .col-lg-4 {
+          max-width: 50%;
+          flex: 0 0 50%;
+        }
+        .row {
+          .col-xl-8 {
+            .tab-content {
+              .prev-button {
+                left: -4%;
+                top: 47%;
+              }
+              .next-button {
+                top: 47%;
+              }
+            }
           }
         }
       }

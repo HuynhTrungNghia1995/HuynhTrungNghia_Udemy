@@ -1,56 +1,190 @@
-.header-left {
-  display: flex;
-  align-items: center;
-  .categories {
-    flex-grow: 1;
-    margin: 0.5rem 1rem;
-    color: #505763;
-    span {
-      font-weight: 200;
-    }
-    &:hover {
-      background-color: $color-third;
-      border-color: $color-third;
-      cursor: pointer;
-    }
-  }
-  @include search();
+.linear {
+  background-image: linear-gradient(
+    90deg,
+    rgb(100, 91, 83) 0%,
+    rgb(235, 82, 82) 18.23%,
+    rgb(247, 143, 47) 34.37%,
+    rgb(244, 193, 81) 48.96%,
+    rgb(82, 187, 118) 66.15%,
+    rgb(38, 165, 215) 82.29%,
+    rgb(224, 105, 183) 100%
+  );
+  height: 0.8rem;
 }
+.header {
+  .hidden-item {
+    display: none;
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+    img {
+      width: 9.375rem;
+    }
+    .categories {
+      flex-grow: 1;
+      margin: 0.5rem 1rem;
+      color: #505763;
+      span {
+        font-weight: 200;
+      }
+      &:hover {
+        background-color: $color-third;
+        border-color: $color-third;
+        cursor: pointer;
+      }
+    }
+    @include search();
+  }
 
-.header-right {
-  .fa {
-    padding: 1.3rem 1.3rem;
-  }
-  .btn-login {
-    border: 1px solid #00000026;
-  }
-  .nav-item {
-    padding: 0 0.5rem;
-    a {
-      padding: 1rem 1.5rem;
-      &:hover {
-        background-color: $color-third;
-        border-color: $color-third;
-        cursor: pointer;
-      }
-    }
-    i {
-      &:hover {
-        background-color: $color-third;
-        border-color: $color-third;
-        border-radius: 50%;
-        cursor: pointer;
-      }
-    }
-    .btn {
-      padding: 1rem 1rem;
+  .header-right {
+    .fa {
+      padding: 1.3rem 1.3rem;
     }
     .btn-login {
-      color: #686f7a;
-      &:hover {
-        color: #000;
-        border-color: #000;
+      border: 1px solid #00000026;
+    }
+    .nav-item {
+      padding: 0 0.5rem;
+      a {
+        padding: 1rem 0rem;
+        &:hover {
+          background-color: $color-third;
+          border-color: $color-third;
+          cursor: pointer;
+        }
       }
+      i {
+        &:hover {
+          background-color: $color-third;
+          border-color: $color-third;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+      }
+      .btn {
+        padding: 1rem 1rem;
+      }
+      .btn-login {
+        color: #686f7a;
+        &:hover {
+          color: #000;
+          border-color: #000;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .header {
+    .col-xl-7 {
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+    .col-xl-5 {
+      flex: 0 0 25%;
+      max-width: 25%;
+      .header-right {
+        .nav-item {
+          .nav-link {
+            display: none;
+          }
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .header {
+    .col-xl-7 {
+      flex: 0 0 65%;
+      max-width: 65%;
+      .categories {
+        .fa {
+          margin: 0 !important;
+        }
+      }
+    }
+    .col-xl-5 {
+      flex: 0 0 35%;
+      max-width: 35%;
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .header {
+    .col-xl-7 {
+      .header-left {
+        img {
+          width: 6rem;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 920px) {
+  .header {
+    .hidden-item {
+      display: flex;
+      margin-left: 1rem;
+      max-width: 40%;
+      flex: 0 0 40%;
+      font-size: 1.5rem;
+      .fa {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .col-xl-7 {
+      max-width: 45%;
+      flex: 0 0 45%;
+      .header-left {
+        .categories {
+          display: none !important;
+        }
+        form {
+          display: none;
+        }
+        img {
+          width: 9rem;
+        }
+      }
+    }
+    .col-xl-5 {
+      max-width: 15%;
+      flex: 0 0 15%;
+      .header-right {
+        .nav-item {
+          .btn {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    .hidden-item {
+      padding: 0;
+      margin: 0;
+      max-width: 5%;
+      flex: 0 0 5%;
+    }
+    .col-xl-7 {
+      max-width: 10%;
+      flex: 0 0 10%;
+      img {
+        margin-right: 5rem;
+      }
+    }
+    .col-xl-5 {
+      max-width: 10%;
+      flex: 0 0 10%;
     }
   }
 }
